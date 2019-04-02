@@ -42,12 +42,12 @@
     },
     "autoload": {
         "psr-4": {
-            "App\\": "src/"
+            "Frz\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "App\\Tests\\": "tests/"
+            "Frz\\": "tests/"
         }
     },
     "config": {

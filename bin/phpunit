@@ -1,0 +1,20 @@
+#!/usr/bin/env php
+<?php
+
+declare(strict_types = 1);
+
+namespace Frz;
+
+if (!getenv('SYMFONY_PHPUNIT_VERSION')) {
+    putenv('SYMFONY_PHPUNIT_VERSION=7.5');
+}
+
+if (!getenv('SYMFONY_PHPUNIT_REMOVE')) {
+    putenv('SYMFONY_PHPUNIT_REMOVE=');
+}
+
+if (!getenv('SYMFONY_PHPUNIT_DIR')) {
+    putenv('SYMFONY_PHPUNIT_DIR=' . dirname(__DIR__) . '/var/cache/.phpunit');
+}
+
+require dirname(__DIR__) . '/vendor/symfony/phpunit-bridge/bin/simple-phpunit';

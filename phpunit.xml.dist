@@ -11,6 +11,9 @@
         <ini name="error_reporting" value="-1" />
         <server name="APP_ENV" value="test" force="true" />
         <server name="SHELL_VERBOSITY" value="-1" />
+        <env name="APP_SECRET" value="s$cretf0rt3st" />
+        <env name="KERNEL_CLASS" value="App\Kernel" />
+        <env name="SYMFONY_DEPRECATIONS_HELPER" value="999999" />
     </php>
 
     <testsuites>

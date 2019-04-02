@@ -1,0 +1,8 @@
+eight_points_guzzle:
+    clients:
+        http:
+            options:
+                timeout: 10
+                http_errors: true
+                headers:
+                    User-Agent: 'webservice/v1'

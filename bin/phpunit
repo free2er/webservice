@@ -3,7 +3,7 @@
 
 declare(strict_types = 1);
 
-namespace Frz;
+namespace Free2er;
 
 if (!getenv('SYMFONY_PHPUNIT_VERSION')) {
     putenv('SYMFONY_PHPUNIT_VERSION=7.5');

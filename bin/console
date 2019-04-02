@@ -3,7 +3,7 @@
 
 declare(strict_types = 1);
 
-namespace Frz;
+namespace Free2er;
 
 use Symfony\Bundle\FrameworkBundle\Console\Application;
 use Symfony\Component\Console\Input\ArgvInput;

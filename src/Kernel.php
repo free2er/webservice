@@ -2,7 +2,7 @@
 
 declare(strict_types = 1);
 
-namespace Frz;
+namespace Free2er;
 
 use Exception;
 use Symfony\Bundle\FrameworkBundle\Kernel\MicroKernelTrait;

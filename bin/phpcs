@@ -3,6 +3,6 @@
 
 declare(strict_types = 1);
 
-namespace Frz;
+namespace Free2er;
 
 require dirname(__DIR__) . '/vendor/bin/phpcs';

@@ -42,12 +42,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Frz\\": "src/"
+            "Free2er\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Frz\\": "tests/"
+            "Free2er\\": "tests/"
         }
     },
     "config": {

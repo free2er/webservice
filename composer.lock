@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "db3fabe14391c32f34a581a5a5a5ad76",
+    "content-hash": "0c4a2c84b602a9f0e5ec92d37a462a2a",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -1259,6 +1259,54 @@
             "time": "2019-02-27T16:04:00+00:00"
         },
         {
+            "name": "free2er/jwt-authenticator-bundle",
+            "version": "1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/free2er/jwt-authenticator-bundle.git",
+                "reference": "23e3a2e8f56ffcb37a2ee2ac41ec49062fd66c24"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/free2er/jwt-authenticator-bundle/zipball/23e3a2e8f56ffcb37a2ee2ac41ec49062fd66c24",
+                "reference": "23e3a2e8f56ffcb37a2ee2ac41ec49062fd66c24",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "lcobucci/jwt": "^3.2",
+                "nesbot/carbon": "^2.16",
+                "php": "^7.1",
+                "symfony/config": "^4.2",
+                "symfony/dependency-injection": "^4.2",
+                "symfony/http-kernel": "^4.2",
+                "symfony/security-core": "^4.2",
+                "symfony/security-guard": "^4.2"
+            },
+            "require-dev": {
+                "free2er/coding-standard": "^1.0",
+                "phpunit/phpunit": "^8.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Free2er\\Jwt\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Max Pryakhin",
+                    "email": "m.pryakhin@gmail.com"
+                }
+            ],
+            "description": "JWT Authenticator Bundle",
+            "time": "2019-04-03T00:55:29+00:00"
+        },
+        {
             "name": "friendsofsymfony/rest-bundle",
             "version": "2.5.0",
             "source": {
@@ -1593,6 +1641,64 @@
                 "sql"
             ],
             "time": "2014-01-12T16:20:24+00:00"
+        },
+        {
+            "name": "lcobucci/jwt",
+            "version": "3.2.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/lcobucci/jwt.git",
+                "reference": "82be04b4753f8b7693b62852b7eab30f97524f9b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/lcobucci/jwt/zipball/82be04b4753f8b7693b62852b7eab30f97524f9b",
+                "reference": "82be04b4753f8b7693b62852b7eab30f97524f9b",
+                "shasum": ""
+            },
+            "require": {
+                "ext-openssl": "*",
+                "php": ">=5.5"
+            },
+            "require-dev": {
+                "mdanter/ecc": "~0.3.1",
+                "mikey179/vfsstream": "~1.5",
+                "phpmd/phpmd": "~2.2",
+                "phpunit/php-invoker": "~1.1",
+                "phpunit/phpunit": "~4.5",
+                "squizlabs/php_codesniffer": "~2.3"
+            },
+            "suggest": {
+                "mdanter/ecc": "Required to use Elliptic Curves based algorithms."
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.1-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Lcobucci\\JWT\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Luís Otávio Cobucci Oblonczyk",
+                    "email": "lcobucci@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A simple library to work with JSON Web Token and JSON Web Signature",
+            "keywords": [
+                "JWS",
+                "jwt"
+            ],
+            "time": "2018-11-11T12:22:26+00:00"
         },
         {
             "name": "monolog/monolog",

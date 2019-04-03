@@ -15,6 +15,7 @@
         "ext-iconv": "*",
         "ext-json": "*",
         "eightpoints/guzzle-bundle": "^7.5",
+        "free2er/jwt-authenticator-bundle": "^1.0",
         "friendsofsymfony/rest-bundle": "^2.5",
         "nelmio/cors-bundle": "^1.5",
         "nesbot/carbon": "^2.16",

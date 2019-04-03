@@ -1,0 +1,2 @@
+jwt_authenticator:
+    public_key: file://%kernel.project_dir%/keys/public.key

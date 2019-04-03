@@ -5,3 +5,8 @@ services:
     _defaults:
         autowire: true
         autoconfigure: true
+
+    # Контроллеры
+    Free2er\Controller\:
+        resource: '../src/Controller'
+        tags: ['controller.service_arguments']

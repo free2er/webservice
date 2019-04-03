@@ -105,6 +105,9 @@
     "free2er/coding-standard": {
         "version": "1.0.0"
     },
+    "free2er/jwt-authenticator-bundle": {
+        "version": "dev-master"
+    },
     "friendsofsymfony/rest-bundle": {
         "version": "2.2",
         "recipe": {
@@ -128,6 +131,9 @@
     },
     "jdorn/sql-formatter": {
         "version": "v1.2.17"
+    },
+    "lcobucci/jwt": {
+        "version": "3.2.5"
     },
     "monolog/monolog": {
         "version": "1.24.0"

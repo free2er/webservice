@@ -1260,16 +1260,16 @@
         },
         {
             "name": "free2er/jwt-authenticator-bundle",
-            "version": "1.0.2",
+            "version": "1.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/free2er/jwt-authenticator-bundle.git",
-                "reference": "23e3a2e8f56ffcb37a2ee2ac41ec49062fd66c24"
+                "reference": "d162e4c9643902b5bd25454df578ffe4b59693c7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/free2er/jwt-authenticator-bundle/zipball/23e3a2e8f56ffcb37a2ee2ac41ec49062fd66c24",
-                "reference": "23e3a2e8f56ffcb37a2ee2ac41ec49062fd66c24",
+                "url": "https://api.github.com/repos/free2er/jwt-authenticator-bundle/zipball/d162e4c9643902b5bd25454df578ffe4b59693c7",
+                "reference": "d162e4c9643902b5bd25454df578ffe4b59693c7",
                 "shasum": ""
             },
             "require": {
@@ -1304,7 +1304,7 @@
                 }
             ],
             "description": "JWT Authenticator Bundle",
-            "time": "2019-04-03T00:55:29+00:00"
+            "time": "2019-04-03T15:20:10+00:00"
         },
         {
             "name": "friendsofsymfony/rest-bundle",

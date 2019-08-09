@@ -13,8 +13,8 @@ security:
         dev:
             pattern: ^/(_(profiler|wdt)|css|images|js)/
             security: false
-        auth:
-            pattern: ^/api/v1/auth
+        public:
+            pattern: ^/api/v1/ping
             anonymous: true
             stateless: true
         main:

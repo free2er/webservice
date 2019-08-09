@@ -4,22 +4,24 @@ declare(strict_types = 1);
 
 namespace Free2er\Controller;
 
-use Carbon\Carbon;
 use Symfony\Component\HttpFoundation\JsonResponse;
+use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 
 /**
- * Контроллер проверки работоспособности
+ * Контроллер проверки работоспособности API
  */
 class PingController
 {
     /**
      * Обрабатывает запрос
      *
+     * @param Request $request
+     *
      * @return Response
      */
-    public function __invoke(): Response
+    public function __invoke(Request $request): Response
     {
-        return new JsonResponse(['pong' => Carbon::now()->toRfc3339String()]);
+        return new JsonResponse(['ping' => $request->query->get('pong') ?: 'pong']);
     }
 }

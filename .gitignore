@@ -1,5 +1,4 @@
 .idea
-/keys/*.key
 
 ###> squizlabs/php_codesniffer ###
 /.phpcs-cache

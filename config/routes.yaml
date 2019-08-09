@@ -1,9 +1,9 @@
-# Контроллер авторизации
-auth:
-    path: /api/v1/auth
-    controller: Free2er\Controller\AuthController
-
-# Контроллер проверки работоспособности
+# Контроллер проверки работоспособности API
 ping:
     path: /api/v1/ping
     controller: Free2er\Controller\PingController
+
+# Контроллер проверки работоспособности JWT
+user:
+    path: /api/v1/user
+    controller: Free2er\Controller\UserController

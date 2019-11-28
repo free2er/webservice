@@ -7,6 +7,7 @@ namespace App\Controller;
 use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
+use Symfony\Component\Routing\Annotation\Route;
 
 /**
  * Контроллер проверки работоспособности API
@@ -19,6 +20,8 @@ class PingController
      * @param Request $request
      *
      * @return Response
+     *
+     * @Route("/")
      */
     public function __invoke(Request $request): Response
     {

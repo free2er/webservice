@@ -1,8 +1,14 @@
 security:
+    # https://symfony.com/doc/current/security/voters.html#changing-the-access-decision-strategy
+    access_decision_manager:
+        allow_if_all_abstain: false
+        strategy: unanimous
+
     # https://symfony.com/doc/current/security.html#where-do-users-come-from-user-providers
     providers:
         jwt:
             id: Free2er\Jwt\Service\UserProvider
+
     firewalls:
         dev:
             pattern: ^/(_(profiler|wdt)|css|images|js)/

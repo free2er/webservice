@@ -25,6 +25,7 @@
         "ext-iconv": "*",
         "ext-json": "*",
         "ext-mbstring": "*",
+        "free2er/json-negotiator-bundle": "^1.0",
         "free2er/jwt-authenticator-bundle": "^2.0",
         "nelmio/cors-bundle": "^2.0",
         "nesbot/carbon": "^2.27",

@@ -25,6 +25,10 @@ class PingController
      */
     public function __invoke(Request $request): Response
     {
-        return new JsonResponse(['ping' => $request->query->get('pong') ?: 'pong']);
+        return new JsonResponse([
+            'message' => 'hello',
+            'query'   => $request->query->all(),
+            'request' => $request->request->all(),
+        ]);
     }
 }

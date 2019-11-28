@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "e85135dd21f677955336e50c9785b202",
+    "content-hash": "749dcfca7d291f17e1db6cc423a4436c",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -1140,6 +1140,50 @@
                 "reflection"
             ],
             "time": "2018-06-14T14:45:07+00:00"
+        },
+        {
+            "name": "free2er/json-negotiator-bundle",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/free2er/json-negotiator-bundle.git",
+                "reference": "48d9d29b5887e7638d56a300e6ee4aa98a5b902b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/free2er/json-negotiator-bundle/zipball/48d9d29b5887e7638d56a300e6ee4aa98a5b902b",
+                "reference": "48d9d29b5887e7638d56a300e6ee4aa98a5b902b",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "php": "^7.2",
+                "symfony/config": "^5.0",
+                "symfony/dependency-injection": "^5.0",
+                "symfony/http-kernel": "^5.0"
+            },
+            "require-dev": {
+                "free2er/coding-standard": "^1.1",
+                "phpunit/phpunit": "^8.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Free2er\\Json\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Max Pryakhin",
+                    "email": "m.pryakhin@gmail.com"
+                }
+            ],
+            "description": "JSON Negotiator Bundle",
+            "time": "2019-11-28T19:14:07+00:00"
         },
         {
             "name": "free2er/jwt-authenticator-bundle",

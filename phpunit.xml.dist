@@ -1,28 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- https://phpunit.de/manual/current/en/appendixes.configuration.html -->
+<!-- https://phpunit.readthedocs.io/en/latest/configuration.html -->
 <phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:noNamespaceSchemaLocation="http://schema.phpunit.de/7.5/phpunit.xsd"
-         backupGlobals="false"
+         xsi:noNamespaceSchemaLocation="vendor/bin/.phpunit/phpunit.xsd"
          colors="true"
          bootstrap="config/bootstrap.php"
 >
     <php>
         <ini name="error_reporting" value="-1" />
-
-        <env name="APP_SECRET" value="s$cretf0rt3st" />
-        <env name="KERNEL_CLASS" value="Free2er\Kernel" />
-        <env name="SYMFONY_DEPRECATIONS_HELPER" value="999999" />
-
         <server name="APP_ENV" value="test" force="true" />
+        <server name="APP_SECRET" value="$ecretf0rt3st" />
+        <server name="KERNEL_CLASS" value="App\Kernel" />
+        <server name="PANTHER_APP_ENV" value="panther" />
         <server name="SHELL_VERBOSITY" value="-1" />
+        <server name="SYMFONY_DEPRECATIONS_HELPER" value="999999" />
         <server name="SYMFONY_PHPUNIT_REMOVE" value="" />
-        <server name="SYMFONY_PHPUNIT_VERSION" value="6.5" />
+        <server name="SYMFONY_PHPUNIT_VERSION" value="8.3" />
 
         <!-- ###+ doctrine/doctrine-bundle ### -->
-        <!-- Format described at http://docs.doctrine-project.org/projects/doctrine-dbal/en/latest/reference/configuration.html#connecting-using-a-url -->
+        <!-- Format described at https://www.doctrine-project.org/projects/doctrine-dbal/en/latest/reference/configuration.html#connecting-using-a-url -->
         <!-- For an SQLite database, use: "sqlite:///%kernel.project_dir%/var/data.db" -->
-        <!-- Configure your db driver and server_version in config/packages/doctrine.yaml -->
+        <!-- For a PostgreSQL database, use: "postgresql://db_user:db_password@127.0.0.1:5432/db_name?serverVersion=11&charset=UTF-8" -->
+        <!-- IMPORTANT: You MUST configure your db driver and server version, either here or in config/packages/doctrine.yaml -->
         <env name="DATABASE_URL" value="sqlite://memory"/>
         <!-- ###- doctrine/doctrine-bundle ### -->
     </php>

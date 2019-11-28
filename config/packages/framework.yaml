@@ -1,8 +1,7 @@
 framework:
     secret: '%env(APP_SECRET)%'
-    default_locale: en
     csrf_protection: false
     php_errors:
         log: true
-    serializer:
-        name_converter: 'serializer.name_converter.camel_case_to_snake_case'
+#    serializer:
+#        name_converter: serializer.name_converter.camel_case_to_snake_case

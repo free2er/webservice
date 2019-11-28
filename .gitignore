@@ -1,10 +1,5 @@
 .idea
 
-###> squizlabs/php_codesniffer ###
-/.phpcs-cache
-/phpcs.xml
-###< squizlabs/php_codesniffer ###
-
 ###> symfony/framework-bundle ###
 /.env.local
 /.env.local.php
@@ -16,10 +11,11 @@
 
 ###> symfony/phpunit-bridge ###
 .phpunit
-/phpunit.phar
+.phpunit.result.cache
 /phpunit.xml
 ###< symfony/phpunit-bridge ###
 
-###> symfony/web-server-bundle ###
-/.web-server-pid
-###< symfony/web-server-bundle ###
+###> squizlabs/php_codesniffer ###
+/.phpcs-cache
+/phpcs.xml
+###< squizlabs/php_codesniffer ###

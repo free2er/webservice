@@ -1,8 +1,0 @@
-#!/usr/bin/env php
-<?php
-
-declare(strict_types = 1);
-
-namespace Free2er;
-
-require dirname(__DIR__) . '/vendor/bin/phpcs';

@@ -19,11 +19,11 @@ This webservice can be copied with the [Composer](https://getcomposer.org/) depe
 
 4. Check code style and tests
 
-        bin/phpcs
-        bin/phpunit
+        composer lint
+        composer test
 
 5. Done!
 
-        bin/console server:run
+        symfony serve
         curl localhost:8000/api/v1/ping
         curl -H "Authorization: Bearer your.jwt.key" localhost:8000/api/v1/user

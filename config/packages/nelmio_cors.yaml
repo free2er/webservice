@@ -1,0 +1,23 @@
+nelmio_cors:
+    defaults:
+        origin_regex: true
+        allow_origin:
+            - ^https?://.*?$
+        allow_methods:
+            - OPTIONS
+            - HEAD
+            - GET
+            - POST
+            - PUT
+            - PATCH
+            - DELETE
+        allow_headers:
+            - Accept-Language
+            - Authorization
+            - Content-Type
+            - Enctype
+        expose_headers:
+            - Link
+        max_age: 3600
+    paths:
+        '^/': null

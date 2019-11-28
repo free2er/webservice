@@ -87,11 +87,32 @@
     "lcobucci/jwt": {
         "version": "3.3.1"
     },
+    "nelmio/cors-bundle": {
+        "version": "1.5",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "master",
+            "version": "1.5",
+            "ref": "6388de23860284db9acce0a7a5d9d13153bcb571"
+        },
+        "files": [
+            "config/packages/nelmio_cors.yaml"
+        ]
+    },
     "nesbot/carbon": {
         "version": "2.27.0"
     },
     "ocramius/proxy-manager": {
         "version": "2.2.3"
+    },
+    "phpdocumentor/reflection-common": {
+        "version": "2.0.0"
+    },
+    "phpdocumentor/reflection-docblock": {
+        "version": "4.3.2"
+    },
+    "phpdocumentor/type-resolver": {
+        "version": "1.0.1"
     },
     "psr/cache": {
         "version": "1.0.1"
@@ -104,6 +125,9 @@
     },
     "psr/log": {
         "version": "1.1.2"
+    },
+    "ramsey/uuid": {
+        "version": "3.8.0"
     },
     "sensio/framework-extra-bundle": {
         "version": "5.2",
@@ -260,6 +284,9 @@
     "symfony/property-access": {
         "version": "v5.0.0"
     },
+    "symfony/property-info": {
+        "version": "v5.0.0"
+    },
     "symfony/routing": {
         "version": "4.2",
         "recipe": {
@@ -297,6 +324,12 @@
     },
     "symfony/security-http": {
         "version": "v5.0.0"
+    },
+    "symfony/serializer": {
+        "version": "v5.0.0"
+    },
+    "symfony/serializer-pack": {
+        "version": "v1.0.2"
     },
     "symfony/service-contracts": {
         "version": "v2.0.0"
@@ -371,6 +404,9 @@
     },
     "twig/twig": {
         "version": "v3.0.0"
+    },
+    "webmozart/assert": {
+        "version": "1.6.0"
     },
     "zendframework/zend-code": {
         "version": "3.4.0"

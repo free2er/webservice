@@ -36,8 +36,8 @@ This webservice can be copied with the [Composer](https://getcomposer.org/) depe
 
 2. Create project
 
-        git clone git@github.com:free2er/webservice.git
-        cd webservice
+        git clone git@github.com:free2er/webservice.git my-service
+        cd my-service
 
 3. Copy the OAuth public key or create new one
 

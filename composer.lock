@@ -1187,16 +1187,16 @@
         },
         {
             "name": "free2er/jwt-authenticator-bundle",
-            "version": "2.0.0",
+            "version": "2.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/free2er/jwt-authenticator-bundle.git",
-                "reference": "75578daabd5e1a9c56c26a15475c36cdaa14e870"
+                "reference": "9a059a6848da546c7f6aab2234d1c45036b863d9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/free2er/jwt-authenticator-bundle/zipball/75578daabd5e1a9c56c26a15475c36cdaa14e870",
-                "reference": "75578daabd5e1a9c56c26a15475c36cdaa14e870",
+                "url": "https://api.github.com/repos/free2er/jwt-authenticator-bundle/zipball/9a059a6848da546c7f6aab2234d1c45036b863d9",
+                "reference": "9a059a6848da546c7f6aab2234d1c45036b863d9",
                 "shasum": ""
             },
             "require": {
@@ -1232,7 +1232,7 @@
                 }
             ],
             "description": "JWT Authenticator Bundle",
-            "time": "2019-11-27T19:52:48+00:00"
+            "time": "2019-11-28T19:29:50+00:00"
         },
         {
             "name": "jdorn/sql-formatter",
